@@ -54,6 +54,3 @@ regenerate:       true
 plugins:
   - jekyll-feed
   - jemoji
-
-gem "jekyll-theme-gitbook"
-theme: "jekyll-theme-gitbook"
