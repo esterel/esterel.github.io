@@ -1,6 +1,6 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
+title:            testttt
+longtitle:        testttt
 author:           HE Tao
 email:            sighingnow@gmail.com
 description: >
@@ -16,7 +16,7 @@ rss:              RSS
 toc:
   enabled: true
   h_min: 1
-  h_max: 3
+  h_max: 30
 
 # markdown render engine.
 markdown:         kramdown
@@ -45,7 +45,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-page_width: 800px
+page_width: 1300px
 
 destination:      ./_site
 incremental:      false
@@ -54,3 +54,6 @@ regenerate:       true
 plugins:
   - jekyll-feed
   - jemoji
+
+gem "jekyll-theme-gitbook"
+theme: "jekyll-theme-gitbook"
